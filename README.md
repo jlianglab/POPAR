@@ -44,7 +44,7 @@ Published in: **Domain Adaptation and Representation Transfer (DART), 2022.**
 <br/>
 
 ## Available implementation
-[<img src="images/pytorch_logo.png" width="200" height="48">](http://pytorch.org))
+[<img src="images/pytorch_logo.png" width="200" height="48">](http://pytorch.org)
 
 ### Requirements
 + Python
