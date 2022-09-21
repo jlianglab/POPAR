@@ -57,16 +57,16 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <!-- TABLE HEADER -->
 <th valign="bottom"></th>
 <th valign="bottom">Backbone</th>
-<th valign="bottom">Input Resolution - Shuffled Patches</th>
+<th valign="bottom">Input Resolution (Shuffled Patches)</th>
 <th valign="bottom">AUC on ChestX-ray14</th>
 <th valign="bottom">AUC on CheXpert-ray14</th>
 <th valign="bottom">AUC on ShenZhen</th>
 <th valign="bottom">ACC on RSNA Pneumonia</th>
 <th valign="bottom">Model</th>
 <!-- TABLE BODY -->
-<tr><td align="left">POPAR<sup>-3</sup></td>
+<tr><td align="left" width=10%>POPAR<sup>-3</sup></td>
 <td align="center">ViT-B</td>
-<td align="center">224x224 - 196</td>
+<td align="center">224x224 (196)</td>
 <td align="center">79.58±0.13</td>
 <td align="center">87.86±0.17</td>
 <td align="center">93.87±0.63</td>
@@ -76,7 +76,7 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 
 <tr><td align="left">POPAR<sup>-2</sup></td>
 <td align="center">Swin-B</td>
-<td align="center">224x224 - 47</td>
+<td align="center">224x224 (47)</td>
 <td align="center">79.50±0.20</td>
 <td align="center">87.63±0.39</td>
 <td align="center">95.07±1.22</td>
@@ -86,11 +86,11 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 
 <tr><td align="left">POPAR</td>
 <td align="center">Swin-B</td>
-<td align="center">448x448 - 196</td>
-<td align="center">**81.81±0.10**</td>
-<td align="center">**88.34±0.50**</td>
-<td align="center">**97.33±0.74**</td>
-<td align="center">**74.19±0.37**</td>
+<td align="center">448x448 (196)</td>
+<td align="center"><strong>81.81±0.10</strong></td>
+<td align="center"><strong>88.34±0.50</strong></td>
+<td align="center"><strong>97.33±0.74</strong></td>
+<td align="center"><strong>74.19±0.37</strong></td>
 <td align="center">download</td>
 </tr>
 
