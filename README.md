@@ -42,8 +42,69 @@ Published in: **Domain Adaptation and Representation Transfer (DART), 2022.**
 <p align="center"><img width="100%" src="images/result5.png" /></p>
 <br/>
 
+## Available implementation
+[<img src="images/pytorch_logo.png" width="200" height="48">](pytorch/)
 
-Code and pretrained models will be made avalable soon.
+### Requirements
++ Python
++ Install PyTorch ([pytorch.org](http://pytorch.org))
+
+### Models
+
+Our pre-trained ViT and Swin Transformer models can be downloaded as following:
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom"></th>
+<th valign="bottom">Backbone</th>
+<th valign="bottom">Input Resolution - Shuffled Patches</th>
+<th valign="bottom">AUC on ChestX-ray14</th>
+<th valign="bottom">AUC on CheXpert-ray14</th>
+<th valign="bottom">AUC on ShenZhen</th>
+<th valign="bottom">ACC on RSNA Pneumonia</th>
+<th valign="bottom">Model</th>
+<!-- TABLE BODY -->
+<tr><td align="left">POPAR<sup>-3</sup></td>
+<td align="center">ViT-B</td>
+<td align="center">224x224 - 196</td>
+<td align="center">79.58±0.13</td>
+<td align="center">87.86±0.17</td>
+<td align="center">93.87±0.63</td>
+<td align="center">73.17±0.46</td>
+<td align="center">download</td>
+</tr>
+
+<tr><td align="left">POPAR<sup>-2</sup></td>
+<td align="center">Swin-B</td>
+<td align="center">224x224 - 47</td>
+<td align="center">79.50±0.20</td>
+<td align="center">87.63±0.39</td>
+<td align="center">95.07±1.22</td>
+<td align="center">73.07±0.46</td>
+<td align="center">download</td>
+</tr>
+
+<tr><td align="left">POPAR</td>
+<td align="center">Swin-B</td>
+<td align="center">448x448 - 196</td>
+<td align="center">**81.81±0.10**</td>
+<td align="center">**88.34±0.50**</td>
+<td align="center">**97.33±0.74**</td>
+<td align="center">**74.19±0.37**</td>
+<td align="center">download</td>
+</tr>
+
+</tbody></table>
+
+
+
+
+
+## Acknowledgement
+This research has been supported in part by ASU and Mayo Clinic through a Seed Grant and an Innovation Grant, and in part by the NIH under Award Number R01HL128785. The content is solely the responsi- bility of the authors and does not necessarily represent the official views of the NIH. This work has utilized the GPUs provided in part by the ASU Research Computing and in part by the Extreme Science and Engineering Discovery En- vironment (XSEDE) funded by the National Science Foundation (NSF) under grant numbers: ACI-1548562, ACI-1928147, and ACI-2005632. The content of this paper is covered by patents pending.
+
+
+
 
 ## License
 
