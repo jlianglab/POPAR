@@ -1,4 +1,4 @@
-<p align="center"><img width="70%" src="images/logo.png" /></p>
+<p align="center"><img width="10%" src="images/logo.png" /></p>
 --------------------------------------------------------------------------------
 
 # POPAR: Patch Order Prediction and Appearance Recovery for Self-supervised Medical Image Analysis
