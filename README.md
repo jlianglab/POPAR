@@ -64,7 +64,7 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <th valign="bottom">ACC on RSNA Pneumonia</th>
 <th valign="bottom">Model</th>
 <!-- TABLE BODY -->
-<tr><td align="left" width=10%>POPAR<sup>-3</sup></td>
+<tr><td align="left" width=11%>POPAR<sup>-3</sup></td>
 <td align="center">ViT-B</td>
 <td align="center">224x224 (196)</td>
 <td align="center">79.58±0.13</td>
