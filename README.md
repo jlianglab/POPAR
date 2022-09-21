@@ -75,16 +75,6 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <td align="center">download</td>
 </tr>
 
-<tr><td align="left">POPAR<sup>-2</sup></td>
-<td align="center">Swin-B</td>
-<td align="center">224x224 (47)</td>
-<td align="center">79.50±0.20</td>
-<td align="center">87.63±0.39</td>
-<td align="center">95.07±1.22</td>
-<td align="center">73.07±0.46</td>
-<td align="center">download</td>
-</tr>
-
 <tr><td align="left">POPAR</td>
 <td align="center">Swin-B</td>
 <td align="center">448x448 (196)</td>
