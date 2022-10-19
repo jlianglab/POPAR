@@ -61,7 +61,7 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <th valign="bottom">Backbone</th>
 <th valign="bottom">Input Resolution (Shuffled Patches)</th>
 <th valign="bottom">AUC on ChestX-ray14</th>
-<th valign="bottom">AUC on CheXpert-ray14</th>
+<th valign="bottom">AUC on CheXpert</th>
 <th valign="bottom">AUC on ShenZhen</th>
 <th valign="bottom">ACC on RSNA Pneumonia</th>
 <th valign="bottom">Model</th>
