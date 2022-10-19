@@ -73,7 +73,7 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <td align="center">87.86±0.17</td>
 <td align="center">93.87±0.63</td>
 <td align="center">73.17±0.46</td>
-<td align="center">  <a href='https://zenodo.org/record/7102247/files/POPAR_Swin_448.pth?download=1)' target="_blank"> download </a> </td>
+<td align="center">  <a href='https://zenodo.org/record/7102247/files/POPAR_ViT_224.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 <tr><td align="left">POPAR</td>
@@ -83,7 +83,7 @@ Our pre-trained ViT and Swin Transformer models can be downloaded as following:
 <td align="center"><strong>88.34±0.50</strong></td>
 <td align="center"><strong>97.33±0.74</strong></td>
 <td align="center"><strong>74.19±0.37</strong></td>
-<td align="center"> <a href='https://zenodo.org/record/7102247/files/POPAR_ViT_224.pth?download=1' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/record/7102247/files/POPAR_Swin_448.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 </tbody></table>
