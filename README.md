@@ -11,7 +11,7 @@ We propose POPAR (patch order prediction and appearance recovery), a novel visio
 <sup>1 </sup>Arizona State University, <sup>2 </sup>Mayo Clinic <br/>
 Published in: **Domain Adaptation and Representation Transfer (DART), 2022.**
 
-[Paper](#) | [Code](https://github.com/jlianglab/POPAR) | [Poster] | [Slides] | Presentation ([YouTube])
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-16852-9_8) |[Supplementary material] (https://link.springer.com/chapter/10.1007/978-3-031-16852-9_8#Sec9) |  [Code](https://github.com/jlianglab/POPAR) | [Poster] | [Slides] | Presentation ([YouTube])
 
 
 
