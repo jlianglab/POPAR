@@ -37,6 +37,8 @@ $ pip install -r requirements
 
 ### Train POPAR model
 ```
+cd Pretraining/
+
 # Train POPAR with NIH ChestX-ray14 on Swin Transformer
 python popar_swin.py
 
