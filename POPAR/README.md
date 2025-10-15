@@ -1,4 +1,4 @@
-<img width="2820" height="919" alt="image" src="https://github.com/user-attachments/assets/061cce3a-d75f-4fd6-8f5e-b8d230deb54e" /># POPAR: Patch Order Prediction and Appearance Recovery for self-supervised learning in chest radiography
+# POPAR: Patch Order Prediction and Appearance Recovery for self-supervised learning in chest radiography
 
 This repository provides a PyTorch implementation of the POPAR: Patch Order Prediction and Appearance Recovery for self-supervised learning in chest radiography.
 
