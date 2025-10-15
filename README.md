@@ -15,8 +15,8 @@ Published in: **Domain Adaptation and Representation Transfer (DART), 2022.**
 
 
 <b>POPAR: Patch Order Prediction and Appearance Recovery for self-supervised learning in chest radiography </b> <br/>
-[Jiaxuan Pang](https://github.com/MRJasonP)<sup>1</sup>, [DongAo Ma](https://github.com/Mda233)<sup>1</sup>, [Michael B. Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
-<sup>1 </sup>Arizona State University, <sup>2 </sup>Mayo Clinic <br/>
+[Jiaxuan Pang](https://github.com/MRJasonP)<sup>1</sup>, [DongAo Ma](https://github.com/Mda233)<sup>1</sup>, [Ziyu Zhou](https://scholar.google.com/citations?user=nvAfKnsAAAAJ&hl=en)<sup>2</sup>, [Michael B. Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>3</sup>, [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
+<sup>1 </sup>Arizona State University, <sup>2 </sup>Shanghai Jiao Tong University, <sup>3 </sup>Mayo Clinic <br/>
 Published in: **Medical Image Analysis, 2025.**
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S1361841525002671) |  [Code](https://github.com/jlianglab/POPAR/tree/main/POPAR/Pretraining) | [Poster] | [Slides] | Presentation ([YouTube])
