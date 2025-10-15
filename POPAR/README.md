@@ -40,11 +40,14 @@ $ pip install -r requirements
 # Train POPAR with NIH ChestX-ray14 on Swin Transformer
 python popar_swin.py
 
+
 # Train POPAR with NIH ChestX-ray14 on Swin Transformer V2
 python popar_swinV2.py
 
+
 # Train POPAR with 811K X-rays on Swin Transformer
 python popar_swin.py --dataset allxrays
+
 
 # Train POPAR with 811K X-rays on Swin Transformer V2
 python popar_swinV2.py --dataset allxrays
@@ -58,16 +61,14 @@ python popar_swinV2.py --dataset allxrays
 cd Downstream/
 
 # Finetune POPAR pretrained on NIH ChestX-ray14 with Swin Transformer for NIH ChestX-ray14
-
 python nih14_full_tuning.py --weight popar_swin_allxrays_448
 
-# Finetune POPAR pretrained on 811K X-rays with Swin Transformer for JSRT<sub>Lung</sub>
 
+# Finetune POPAR pretrained on 811K X-rays with Swin Transformer for JSRT<sub>Lung</sub>
 python jsrt_lung.py --weight popar_swin_allxrays_448
 
 
 # Finetune POPAR pretrained on 811K X-rays with Swin TransformerV2 for VinDr-RibCXR
-
 python vindr_ribcxr.py --weight popar_swinv2_allxrays_512
 
 
