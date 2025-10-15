@@ -55,5 +55,60 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center"> <a href='#' target="_blank"> download </a> </td>
 </tr>
 
+
+
+<tr><td align="left">POPAR<sup>Swin</sup></td>
+<td align="center">Swin-B</td>
+<td align="center">448x448 (196)</td>
+<td align="center">811K X-rays</td>
+<td align="center">82.41±0.18</td>
+<td align="center"><strong>88.83±0.49</strong></td>
+<td align="center">98.03±0.60</td>
+<td align="center"><strong>74.72±0.33</strong></td>
+<td align="center">98.14±0.04</td>
+<td align="center">98.05±0.07</td>
+<td align="center">94.80±0.15</td>
+<td align="center">92.84±0.50</td>
+<td align="center">72.45±0.17</td>
+<td align="center"> <a href='#' target="_blank"> download </a> </td>
+</tr>
+
+<tr><td align="left">POPAR<sub>NIH</sub></td>
+<td align="center">SwinV2-B</td>
+<td align="center">512x512 (256)</td>
+<td align="center">NIH ChestX-ray14</td>
+<td align="center">82.67±0.67</td>
+<td align="center">88.49±0.54</td>
+<td align="center">97.22±0.65</td>
+<td align="center">74.06±1.29</td>
+<td align="center">98.26±0.21</td>
+<td align="center">98.06±0.82</td>
+<td align="center">94.62±0.35</td>
+<td align="center">91.53±0.44</td>
+<td align="center">69.34±1.06</td>
+<td align="center"> <a href='#' target="_blank"> download </a> </td>
+</tr>
+
+
+<tr><td align="left">POPAR</td>
+<td align="center">SwinV2-B</td>
+<td align="center">512x512 (256)</td>
+<td align="center">811K X-rays</td>
+<td align="center"><strong>83.21±0.37</strong></td>
+<td align="center">88.58±0.24 </td>
+<td align="center"><strong>98.42±0.45</strong></td>
+<td align="center">74.43±0.32</td>
+<td align="center"><strong>98.62±0.65</strong></td>
+<td align="center"><strong>98.94±0.26</strong></td>
+<td align="center"><strong>95.29±0.29</strong></td>
+<td align="center"><strong>93.33±0.53</strong></td>
+<td align="center"><strong>72.94±1.01</strong></td>
+<td align="center"> <a href='#' target="_blank"> download </a> </td>
+</tr>
+
+
+
+
+
 </tbody></table>
 
