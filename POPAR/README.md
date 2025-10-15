@@ -70,7 +70,7 @@ python jsrt_lung.py --weight popar_swin_allxrays_448
 
 # Finetune POPAR pretrained on 811K X-rays with Swin TransformerV2 for VinDr-RibCXR
 python vindr_ribcxr.py --weight popar_swinv2_allxrays_512
-
+```
 
 
 ## Models
