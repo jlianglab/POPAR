@@ -9,7 +9,7 @@ We propose POPAR (patch order prediction and appearance recovery), a novel visio
 <b>POPAR: Patch Order Prediction and Appearance Recovery for Self-supervised Medical Image Analysis </b> <br/>
 [Jiaxuan Pang](https://github.com/MRJasonP)<sup>1</sup>, [Fatemeh Haghighi](https://github.com/fhaghighi)<sup>1</sup>,[DongAo Ma](https://github.com/Mda233)<sup>1</sup>,[Nahid Ul Islam](https://github.com/Nahid1992)<sup>1</sup>,[Mohammad Reza Hosseinzadeh Taher](https://github.com/MR-HosseinzadehTaher)<sup>1</sup>, [Michael B. Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
 <sup>1 </sup>Arizona State University, <sup>2 </sup>Mayo Clinic <br/>
-Published in: **International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2022](https://conferences.miccai.org/2022/en/)); Domain Adaptation and Representation Transfer (DART) **
+Published in: **International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2022](https://conferences.miccai.org/2022/en/)); Domain Adaptation and Representation Transfer (DART)**
 
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-16852-9_8) | [Supplementary material](https://link.springer.com/chapter/10.1007/978-3-031-16852-9_8#Sec9) |  [Code](https://github.com/jlianglab/POPAR) | [Poster] | [Slides] | Presentation ([YouTube])
 
