@@ -15,9 +15,66 @@ Published in: **Medical Image Analysis, 2025.**
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S1361841525002671) |  [Code](https://github.com/jlianglab/POPAR/tree/main/POPAR/Pretraining) | [Poster] | [Slides] | Presentation ([YouTube])
 
-### Models
 
-Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloaded as following:
+
+## Code
+### Requirements
++ Python
++ PyTorch ([pytorch.org](http://pytorch.org))
+### Setup environment 
+Create and activate a Python 3 conda environment:
+```
+$ conda create -n popar python=3
+$ conda activate popar
+```
+Install PyTorch according to the [CUDA version](https://pytorch.org/get-started/previous-versions/) (e.g., CUDA 11.6)
+```
+$ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+
+$ cd pretraining/
+$ pip install -r requirements
+```
+
+### Train POPAR model
+```
+# Train POPAR with NIH ChestX-ray14 on Swin Transformer
+python popar_swin.py
+
+# Train POPAR with NIH ChestX-ray14 on Swin Transformer V2
+python popar_swinV2.py
+
+# Train POPAR with 811K X-rays on Swin Transformer
+python popar_swin.py --dataset allxrays
+
+# Train POPAR with 811K X-rays on Swin Transformer V2
+python popar_swinV2.py --dataset allxrays
+```
+
+
+
+### Finetune the model on target tasks
+
+```
+cd Downstream/
+
+# Finetune POPAR pretrained on NIH ChestX-ray14 with Swin Transformer for NIH ChestX-ray14
+
+python nih14_full_tuning.py --weight popar_swin_allxrays_448
+
+# Finetune POPAR pretrained on 811K X-rays with Swin Transformer for JSRT<sub>Lung</sub>
+
+python jsrt_lung.py --weight popar_swin_allxrays_448
+
+
+# Finetune POPAR pretrained on 811K X-rays with Swin TransformerV2 for VinDr-RibCXR
+
+python vindr_ribcxr.py --weight popar_swinv2_allxrays_512
+
+
+
+## Models
+
+Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloaded as follows:
 
 <table><tbody>
 <!-- START TABLE -->
@@ -105,10 +162,5 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center"><strong>72.94±1.01</strong></td>
 <td align="center"> <a href='#' target="_blank"> download </a> </td>
 </tr>
-
-
-
-
-
 </tbody></table>
 
