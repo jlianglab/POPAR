@@ -52,7 +52,7 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center">94.47±0.26</td>
 <td align="center">91.78±0.53</td>
 <td align="center">70.00±0.28</td>
-<td align="center"> <a href='#' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/record/7102247/files/POPAR_Swin_448.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 
