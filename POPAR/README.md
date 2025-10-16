@@ -112,7 +112,7 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center">94.47±0.26</td>
 <td align="center">91.78±0.53</td>
 <td align="center">70.00±0.28</td>
-<td align="center"> <a href='https://zenodo.org/record/7102247/files/POPAR_Swin_448.pth?download=1' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/records/17356352/files/popar_swin_nih14_448.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 
@@ -130,7 +130,7 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center">94.80±0.15</td>
 <td align="center">92.84±0.50</td>
 <td align="center">72.45±0.17</td>
-<td align="center"> <a href='#' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/records/17356352/files/popar_swin_allxrays_448.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 <tr><td align="left">POPAR<sub>NIH</sub></td>
@@ -146,7 +146,7 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center">94.62±0.35</td>
 <td align="center">91.53±0.44</td>
 <td align="center">69.34±1.06</td>
-<td align="center"> <a href='#' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/records/17356352/files/popar_swinv2_nih14_448.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 
 
@@ -163,7 +163,7 @@ Our pre-trained Swin Transformer and Swin Transformer V2 models can be downloade
 <td align="center"><strong>95.29±0.29</strong></td>
 <td align="center"><strong>93.33±0.53</strong></td>
 <td align="center"><strong>72.94±1.01</strong></td>
-<td align="center"> <a href='#' target="_blank"> download </a> </td>
+<td align="center"> <a href='https://zenodo.org/records/17356352/files/popar_swinv2_allxrays_512.pth?download=1' target="_blank"> download </a> </td>
 </tr>
 </tbody></table>
 
